@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  overflow:scroll;
+  background-color: #292c33;
+  color:white;
+  padding-top: 100px;
+  
+}
+#title{
+  color: white;
+}
+
+.navbar{
+  color:white;
+  font-size: large;
+
+}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+<br>
+<div class="jumbotron" style="background: Gray;">
+  <h2 >Site was updated today!</h2>
+</div>
+  <h4>You are now logged in!</h4>
+  <h1>Welcome to Project One!</h1>
+  <br>
+  <br>
+  <h4>Daily Unique Users: 2</h4>
+<br> 
+  <h2><a href="{% url 'groups:all'%}">Go to Groups</a></h2>
+
+</div>
+
+{% endblock %}
